@@ -1,0 +1,25 @@
+{
+  "name": "dev-links",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that linkifies Jira ticket IDs on configured domains",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write 'src/**/*.ts' '*.{json,mjs}'",
+    "format:check": "prettier --check 'src/**/*.ts' '*.{json,mjs}'"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "dotenv": "^16.4.7",
+    "esbuild": "^0.24.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2"
+  }
+}

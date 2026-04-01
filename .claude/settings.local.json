@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:redreamality.com)",
+      "WebFetch(domain:docs.plasmo.com)",
+      "WebFetch(domain:www.mintlify.com)",
+      "WebFetch(domain:wxt.dev)",
+      "WebFetch(domain:extension.js.org)",
+      "WebFetch(domain:lockhart.dev)",
+      "WebFetch(domain:extensionbooster.com)",
+      "Bash(npm install:*)",
+      "Bash(npx eslint:*)",
+      "Bash(npx prettier:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

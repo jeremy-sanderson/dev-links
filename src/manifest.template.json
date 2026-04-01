@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Dev Links — Jira Linkifier",
+  "version": "0.1.0",
+  "description": "Automatically linkifies Jira ticket IDs on configured domains",
+  "content_scripts": [
+    {
+      "matches": ["__DOMAINS__"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
